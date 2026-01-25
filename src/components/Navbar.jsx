@@ -33,7 +33,7 @@ const Navbar = () => {
         rel="noopener noreferrer"
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
-        className="hidden sm:block bg-blue-600  border border-blue-500/50 text-white px-6 py-2 rounded-full text-[14px] font-bold  transition-all  tracking-widest cursor-pointer"
+        className=" sm:block bg-blue-600  border border-blue-500/50 text-white px-6 py-2 rounded-full text-[14px] font-bold  transition-all  tracking-widest cursor-pointer"
       >
         Hire Me
       </motion.a>
