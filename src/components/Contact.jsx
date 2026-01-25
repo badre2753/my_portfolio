@@ -33,7 +33,7 @@ const ContactCard = ({ icon: Icon, title, value, href, color }) => (
 
 const Contact = () => {
 
-  // email
+   // email
   const [formData, setFormData] = useState({
     name: '',
     email: '',
@@ -94,7 +94,7 @@ const Contact = () => {
       </div>
 
       {/* Sleek Minimal Form */}
-      <div className="max-w-xl mx-auto bg-black/40 backdrop-blur-md p-6 rounded-[2rem] border border-white/5">
+       <div className="max-w-xl mx-auto bg-black/40 backdrop-blur-md p-6 rounded-[2rem] border border-white/5">
       <form className="space-y-3" onSubmit={handleMailTo}>
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           <input 
