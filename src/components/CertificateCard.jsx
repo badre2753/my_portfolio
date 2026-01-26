@@ -54,7 +54,7 @@ const Certificates = () => {
             {chunk[2] && <CertificateCard cert={chunk[2]} />}
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-[70%] mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6 sm:max-w-[70%] max-w-[100%] mx-auto">
             {chunk[3] && <CertificateCard cert={chunk[3]} />}
             {chunk[4] && <CertificateCard cert={chunk[4]} />}
           </div>
