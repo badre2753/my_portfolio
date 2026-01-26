@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Mail, Github, Linkedin, Phone, Send } from 'lucide-react';
+import {useState} from 'react'
 
 const ContactCard = ({ icon: Icon, title, value, href, color }) => (
   <motion.a 
@@ -33,37 +34,6 @@ const ContactCard = ({ icon: Icon, title, value, href, color }) => (
 
 
 const Contact = () => {
-
-  // email send 
-   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    message: ''
-  });
-
-  const handleChange = (e) => {
-    setFormData({ ...formData, [e.target.name]: e.target.value });
-  };
-
-  const handleMailTo = (e) => {
-    e.preventDefault();
-    
-    // Aapki email ID yahan likhein
-    const adminEmail = "badre2753@gmail.com"; 
-    
-    // Subject aur Body prepare kar rahe hain
-    const subject = encodeURIComponent(`New Message from ${formData.name}`);
-    const body = encodeURIComponent(
-      `Name: ${formData.name}\n` +
-      `User Email: ${formData.email}\n\n` +
-      `Message:\n${formData.message}`
-    );
-
-    // mailto link create karke redirect kar dena
-    window.location.href = `mailto:${adminEmail}?subject=${subject}&body=${body}`;
-  };
-
-
   return (
     <section id="contact-me" className="py-7 px-6 max-w-7xl mx-auto scroll mt-24">
       <motion.div 
@@ -110,44 +80,29 @@ const Contact = () => {
 
       {/* Sleek Minimal Form */}
       <div className="max-w-xl mx-auto bg-black/40 backdrop-blur-md p-6 rounded-[2rem] border border-white/5">
-      <form className="space-y-3" onSubmit={handleMailTo}>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-          <input 
-            type="text" 
-            name="name"
-            placeholder="Name" 
-            value={formData.name}
-            onChange={handleChange}
-            required
-            className="bg-white/5 border border-white/10 rounded-xl px-4 py-2 text-xs focus:border-blue-500 outline-none transition-all w-full text-white"
-          />
-          <input 
-            type="email" 
-            name="email"
-            placeholder="Email" 
-            value={formData.email}
-            onChange={handleChange}
-            required
-            className="bg-white/5 border border-white/10 rounded-xl px-4 py-2 text-xs focus:border-blue-500 outline-none transition-all w-full text-white"
-          />
-        </div>
-        <textarea 
-          name="message"
-          placeholder="Message" 
-          rows="3" 
-          value={formData.message}
-          onChange={handleChange}
-          required
-          className="bg-white/5 border border-white/10 rounded-xl px-4 py-2 text-xs focus:border-blue-500 outline-none transition-all resize-none w-full text-white"
-        ></textarea>
-        <button 
-          type="submit"
-          className="w-full flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 rounded-xl text-xs transition-all uppercase tracking-widest group"
-        >
-          Send <Send size={14} className="group-hover:translate-x-1 transition-transform" />
-        </button>
-      </form>
-    </div>
+        <form className="space-y-3">
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <input 
+              type="text" 
+              placeholder="Name" 
+              className="bg-white/5 border border-white/10 rounded-xl px-4 py-2 text-xs focus:border-blue-500 outline-none transition-all w-full"
+            />
+            <input 
+              type="email" 
+              placeholder="Email" 
+              className="bg-white/5 border border-white/10 rounded-xl px-4 py-2 text-xs focus:border-blue-500 outline-none transition-all w-full"
+            />
+          </div>
+          <textarea 
+            placeholder="Message" 
+            rows="3" 
+            className="bg-white/5 border border-white/10 rounded-xl px-4 py-2 text-xs focus:border-blue-500 outline-none transition-all resize-none w-full"
+          ></textarea>
+          <button className="w-full flex items-center justify-center gap-2 bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 rounded-xl text-xs transition-all uppercase tracking-widest group">
+            Send <Send size={14} className="group-hover:translate-x-1 transition-transform" />
+          </button>
+        </form>
+      </div>
     </section>
   );
 };
