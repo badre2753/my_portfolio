@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Mail, Github, Linkedin, Phone, Send } from 'lucide-react';
-import {useState} from 'react'
+
 
 const ContactCard = ({ icon: Icon, title, value, href, color }) => (
   <motion.a 
