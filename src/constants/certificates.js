@@ -2,14 +2,22 @@
 export const certificatesData = [
   { 
     title: "Verilog HDL Masterclass",  
-    image: "/assets/certificate.jpg", 
+    image: "/assets/CetificateImage/Internship & Job Preparation Training - Certificate of Completion-1.jpg", 
   },
   { 
     title: "FPGA Prototyping",  
-    image: "/assets/certificate.jpg", 
+    image: "/assets/CetificateImage/Vlsi Training.jpeg", 
   },
   { 
     title: "MATLAB for Electronics",  
-    image: "/assets/certificate.jpg", 
+    image: "/assets/CetificateImage/Noukri certi.jpg", 
+  },
+  { 
+    title: "FPGA Prototyping",  
+    image: "/assets/CetificateImage/matlab certificate-1.jpg", 
+  },
+  { 
+    title: "FPGA Prototyping",  
+    image: "/assets/CetificateImage/skill india VLSI.jpeg", 
   },
 ];
