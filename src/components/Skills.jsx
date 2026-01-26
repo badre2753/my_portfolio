@@ -44,14 +44,14 @@ const Skills = () => {
   ];
 
   return (
-    <section id="skills" className="py-24 px-6 max-w-6xl mx-auto mb-40">
+    <section id="skills" className="py-20 px-6 max-w-6xl mx-auto mb-16">
       <motion.div 
         initial={{ opacity: 0 }}
         whileInView={{ opacity: 1 }}
         className="mb-8 text-center"
       >
-        <h2 className="text-3xl font-bold tracking-tighter uppercase  italic">
-          Skills 
+        <h2 className="text-3xl font-bold tracking-tighter   italic">
+          Technical <span className=' text-blue-600'>Skills </span>
         </h2>
       </motion.div>
 

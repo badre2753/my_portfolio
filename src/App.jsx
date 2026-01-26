@@ -8,6 +8,7 @@ import Skills from './components/Skills';
 // import Experience from './components/Experience'
 import About from './components/About';
 import Contact from './components/Contact';
+import Certificate from './components/CertificateCard';
 
 const CircuitBackground = () => (
   <div className="fixed inset-0 -z-10 h-full w-full bg-[#050505]">
@@ -30,7 +31,7 @@ export default function App() {
 
       <section id="projects" className="py-16 px-6 max-w-6xl mx-auto">
         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} className="mb-12 text-center">
-          <h2 className="text-4xl font-bold tracking-tighter uppercase italic">
+          <h2 className="text-4xl font-bold tracking-tighter  italic">
             My <span className="text-blue-600">Projects</span>
           </h2>
         </motion.div>
@@ -73,6 +74,7 @@ export default function App() {
         ))}
       </section>
       <Skills id="skills" />
+      <Certificate id="achievements" />
       {/* <Experience id="experience"/> */}
       <About id="about-me" />
       <Contact id="contact-me" />

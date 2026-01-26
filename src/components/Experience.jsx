@@ -31,7 +31,7 @@ const Experience = () => (
       whileInView={{ opacity: 1 }}
       className="mb-12 text-left"
     >
-      <h2 className="text-3xl font-bold tracking-tighter uppercase italic">
+      <h2 className="text-3xl font-bold tracking-tighter  italic">
         Professional <span className="text-blue-600">Journey</span>
       </h2>
       <p className="text-gray-500 mt-2 font-mono text-[10px] tracking-[0.5em] uppercase">// Timeline of Academic & Tech Growth</p>

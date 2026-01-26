@@ -58,7 +58,7 @@ const About = () => {
           <div className="bg-black/40 backdrop-blur-md p-8 rounded-[2rem] border border-white/5 md:col-span-1 min-h-[200px]">
             <div className="flex items-center gap-3 mb-6">
               <User className="text-blue-500" size={24} />
-              <h3 className="text-xl font-bold text-white tracking-tight uppercase italic">About Me</h3>
+              <h3 className="text-xl font-bold text-white tracking-tight  italic">About Me</h3>
             </div>
             <p className="text-gray-300  text-sm leading-relaxed font-light italic font-mono ">
               B.Tech student with hands-on experience in Verilog HDL, RTL design, FPGA prototyping, and MATLAB. Skilled in writing synthesizable RTL, functional verification, and validating designs on FPGA boards.<br/><br/>
