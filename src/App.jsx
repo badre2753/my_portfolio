@@ -91,7 +91,7 @@ export default function App() {
               target='_blank'
               className='text-blue font-sans text-[15px] text-blue-500'
               href='https://www.linkedin.com/in/md-sanaullah-khan-1a0871281/'>Linkedln </a>
-            <span className='text-[10px]'> Availaible for Website Building And Colaboration</span>
+            <span className='text-[10px]'> Availaible for Website Building And Collaboration</span>
           </p>
         </div>
       </footer>
