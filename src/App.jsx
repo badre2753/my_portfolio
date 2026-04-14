@@ -5,9 +5,12 @@ import Hero from './components/Hero';
 import ProjectCard from './components/ProjectCard';
 import { projects } from './constants';
 import Skills from './components/Skills';
+import Footer from './components/Footer';
+
 // import Experience from './components/Experience'
 import About from './components/About';
 import Contact from './components/Contact';
+import Certificate from './components/CertificateCard';
 
 const CircuitBackground = () => (
   <div className="fixed inset-0 -z-10 h-full w-full bg-[#050505]">
@@ -30,7 +33,7 @@ export default function App() {
 
       <section id="projects" className="py-16 px-6 max-w-6xl mx-auto">
         <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} className="mb-12 text-center">
-          <h2 className="text-4xl font-bold tracking-tighter uppercase italic">
+          <h2 className="text-4xl font-bold tracking-tighter  italic">
             My <span className="text-blue-600">Projects</span>
           </h2>
         </motion.div>
@@ -73,26 +76,11 @@ export default function App() {
         ))}
       </section>
       <Skills id="skills" />
+      <Certificate id="achievements" />
       {/* <Experience id="experience"/> */}
       <About id="about-me" />
       <Contact id="contact-me" />
-
-
-      <footer className="py-10 text-center border-t border-gray-900 bg-[#070707] font-sans">
-        <div className='justify-evenly flex items-center'>
-          <p className="text-white text-[15px] font-bold  tracking-widest">
-            © 2026 <span className='text-blue-700 text-[25px]'>Badre Alam</span> All rights reserved.
-          </p>
-          <p className="text-white   font-bold tracking-widest">
-            Developed by <span className='text-blue-700 text-[25px]'>Md Sanaullah Ansari</span><br />
-            <a
-              target='_blank'
-              className='text-blue font-sans text-[15px] text-blue-500'
-              href='https://www.linkedin.com/in/md-sanaullah-khan-1a0871281/'>Linkedln </a>
-            <span className='text-[10px]'> Availaible for Website Building And Colaboration</span>
-          </p>
-        </div>
-      </footer>
+      <Footer/>
     </main>
   );
 }

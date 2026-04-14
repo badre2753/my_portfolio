@@ -36,7 +36,7 @@ const ProjectCard = ({ project, isSquare }) => {
               <img 
                 src={project.image} 
                 alt={project.title}
-                className="w-full h-full object-cover opacity-70 group-hover:opacity-100 transition-opacity duration-500"
+                className="w-full h-full object-cover opacity-90 group-hover:opacity-100 transition-opacity duration-500"
                 onError={(e) => { e.target.style.display = 'none'; }}
               />
             </div>

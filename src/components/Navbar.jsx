@@ -16,7 +16,7 @@ const Navbar = () => {
     <nav className="fixed top-0 w-full z-50 flex justify-between items-center px-10 py-6 bg-[#050505]/80 backdrop-blur-md border-b border-white/5">
       <div className="text-white font-bold text-xl tracking-tighter">Badre Alam</div>
       <div className="hidden md:flex gap-8">
-        {['Home', 'Projects', 'Skills', 'About-me', 'Contact-me'].map((item) => (
+        {['Home', 'Projects', 'Skills' ,'Achievements', 'About-me', 'Contact-me'].map((item) => (
           <a
             key={item}
             href={`#${item.toLowerCase()}`}
