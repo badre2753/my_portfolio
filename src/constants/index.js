@@ -17,7 +17,7 @@ export const projects = [
     title: "8 Bit ALU",
     description: "8bit ALU using verilog and verifed writing test bench highlight key points.",
     tags: ["Verilog", "VIVADO", "Digital Electronics"],
-    link: "https://github.com/badre2753",
+    link: "https://github.com/badre2753/ALU",
     image: "/assets/8bitALURTL.png"
   },
   {
