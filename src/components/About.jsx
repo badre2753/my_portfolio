@@ -42,7 +42,7 @@ const About = () => {
           </div>
 
           <motion.a
-            href="/Resume.pdf"
+            href='/Resume.pdf'
             target="_blank"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
