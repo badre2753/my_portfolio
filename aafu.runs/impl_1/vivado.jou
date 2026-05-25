@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.2 (64-bit)
+# SW Build 3671981 on Fri Oct 14 05:00:03 MDT 2022
+# IP Build 3669848 on Fri Oct 14 08:30:02 MDT 2022
+# Start of session at: Sun Dec 14 17:32:29 2025
+# Process ID: 21800
+# Current directory: F:/project/aafu/aafu.runs/impl_1
+# Command line: vivado.exe -log aafu.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source aafu.tcl -notrace
+# Log file: F:/project/aafu/aafu.runs/impl_1/aafu.vdi
+# Journal file: F:/project/aafu/aafu.runs/impl_1\vivado.jou
+# Running On: DESKTOP-CM1PGBH, OS: Windows, CPU Frequency: 1896 MHz, CPU Physical cores: 4, Host memory: 8391 MB
+#-----------------------------------------------------------
+source aafu.tcl -notrace

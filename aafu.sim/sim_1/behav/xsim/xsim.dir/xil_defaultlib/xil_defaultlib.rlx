@@ -1,0 +1,7 @@
+0.7
+2020.2
+Oct 14 2022
+05:20:55
+F:/project/aafu/aafu.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+F:/project/aafu/aafu.srcs/sim_1/new/tb_aafu.v,1756712284,verilog,,,,tb_aafu,,,,,,,,
+F:/project/aafu/aafu.srcs/sources_1/new/aafu.v,1765711622,verilog,,F:/project/aafu/aafu.srcs/sim_1/new/tb_aafu.v,,DOMAIN_Decoder;SIGN_conv;aafu;adder;adder_ful;modified_input_block;mux_2to1;mux_c;selective_1_comp;sgn,,,,,,,,
