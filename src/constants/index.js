@@ -3,14 +3,14 @@ export const projects = [
     title: "Activation Function Unit",
     description: "Designed AFU of sigmoid function using verilog on xilin vivado version 2022.2 it gives approx values of sigmoid function with maximum possible error .02",
     tags: ["Verilog", "VIVADO", "Digital Electronics"],
-    link: "https://github.com/badre2753",
+    link: "https://github.com/badre2753/Activation_Function_Unit_of_Sigmoid_Function.git",
     image: "/assets/activationFunctionUnit.png"
   },
   {
     title: "Implementation of Automatic Washing Machine",
     description: " Designed automatic washing machine using verilog on vivado that include wash ,Drain,Add Detergent",
     tags: ["Verilog", "VIVADO", "Digital Electronics"],
-    link: "https://github.com/badre2753",
+    link: "https://github.com/badre2753/Automatic_Washing_machine_using_verilog.git",
     image: "/assets/AutomaticWashingMachinFSM.jpeg"
   },
   {
@@ -20,11 +20,12 @@ export const projects = [
     link: "https://github.com/badre2753/ALU",
     image: "/assets/8bitALURTL.png"
   },
+  
   {
     title: "Sequence Detector1101",
     description: "• Designed sequence detecto that detect 1101 using verilog on Xilin vivado",
     tags: ["Verilog", "VIVADO", "Digital Electronics"],
-    link: "https://github.com/badre2753",
+    link: "https://github.com/badre2753/Activation_Function_Unit_of_Sigmoid_Function.git",
     image: "/assets/sequenceDetection101FSM.jpeg"
   },
   {
